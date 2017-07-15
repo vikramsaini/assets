@@ -1,7 +1,5 @@
 package com.hclfintech.management.assets.model;
-/**
- * @author omkar
- */
+
 
 import javax.validation.constraints.NotNull;
 
@@ -57,7 +55,7 @@ public class ShopGeoLocation {
 		if (longitude == null) {
 			if (other.longitude != null)
 				return false;
-		} else if (!longitude.equals(other.longitude))
+		} else if (!longitude.equalss(other.longitude))
 			return false;
 		return true;
 	}
